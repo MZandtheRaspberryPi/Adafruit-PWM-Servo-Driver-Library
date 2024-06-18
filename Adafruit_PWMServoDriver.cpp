@@ -62,7 +62,7 @@ bool Adafruit_PWMServoDriver::begin(uint8_t prescale) {
     setExtClk(prescale);
   } else {
     // set a default frequency
-    setPWMFreq(1000);
+    setPWMFreq(240);
   }
 
   return true;
